@@ -1,0 +1,23 @@
+artifact_path: file:///d:/fastapi/Bank_Deposit_MLOps/notebooks/mlruns/1/models/m-5ca002d015bc4d60b6c2ce6ccd8a595f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.15
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: pickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-5ca002d015bc4d60b6c2ce6ccd8a595f
+model_size_bytes: 49313
+model_uuid: m-5ca002d015bc4d60b6c2ce6ccd8a595f
+prompts: null
+run_id: 834c73012e9d4a339d1a96cda65d8fd2
+utc_time_created: '2026-07-23 14:14:30.424859'
